@@ -1,0 +1,495 @@
+/* INDEX.HTML */
+
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+
+    color: #e5a75c;
+}
+
+/* Header */
+.bannerHeader{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bannerIndex{
+    height: 30vh;
+    background-image: url(../images/banner/bannerHeaderMobile.jpg);
+}
+
+#header{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+picture{
+    display: flex;
+}
+
+picture img{
+    margin: 12vh auto;
+}
+
+.fondoGris{
+    background-color: #262626;
+}
+
+header nav ul a{
+    color: #e5a75c !important;
+}
+
+header p{
+    display: none;
+    
+    width: 50%;
+    margin: auto;
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+nav button{
+    border: none !important;
+    padding: 2px 6px !important;
+}
+
+nav button i{
+    color: #e5a75c;
+    font-size: 40px;
+}
+
+nav div ul{
+    margin-left: auto;
+}
+
+@media(min-width:992px){
+
+    .bannerIndex{
+        background-image: url(../images/banner/bannerHeaderDesktop.jpg);
+
+        height: 100vh;
+    }
+
+    nav{
+        position: static !important;
+    }
+
+    nav ul li a{
+        font-size: 20px !important;
+
+        padding: 4px 0 !important;
+
+        margin: 0 15px !important;        
+    }
+
+    header p{
+        display: block;
+    }
+}
+
+/* Fin HEader */
+
+/* Seccion Menú */
+
+.bannerMenu{
+    background-image: url(../images/banner/bannerMenuMobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    height: 100%;
+}
+
+.menu i{
+    color: #e5a75c;
+    font-size: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+
+    color: #e5a75c;
+    font-weight: bold;
+
+    border: 2px solid #e5a75c;
+
+    padding: 3px 30px;
+}
+
+.row .contenedorMenu, .row .contenedorGaleria{
+    padding: 0 !important;
+}
+
+@media(min-width:992px) {
+
+    .bannerMenu{
+        background-image: url(../images/banner/bannerMenuDesktop.jpg);
+        height: 100%;
+    }
+    
+    h2{
+        font-size: 50px;
+        margin: 10px ;
+    }
+
+    .menu i{
+        font-size: 40px;
+    }
+}
+
+/* Fin Sección Menú */
+
+
+/* Sección Faq */
+
+.bannerFaq{
+    background-image: url(../images/banner/bannerSucursalesMobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.faq{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.cardInfo{
+    margin: 10px 0 ;
+   padding: 10px;
+
+   border-radius: 3px;
+
+   background: rgba(0, 0, 0, 0.5);
+    
+   text-align: center;
+   color: #e5a75c;
+
+   height: 90%
+}
+
+.cardInfo p{
+    color: white;
+}
+
+.cardInfo i{
+    font-size: 20px;
+}
+
+@media (min-width:992px){
+    .bannerFaq{
+        background-image: url(../images/banner/bannerSucursalesDesktop.jpg);
+        height: 50vh;
+    }
+
+    .faq{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .cardInfo{
+        background: rgba(0, 0, 0, 0.7);
+        width: 75%;
+    }
+    
+}
+
+/* Fin Sección Faq */
+
+/* Sección Reseñas */
+
+.contenedorCarouselReseñas{
+    background-color: #262626;
+
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+.item i{
+    color: #e5a75c;
+}
+
+.contenedorCarouselReseñas h2{
+    margin-bottom: 15px;
+
+    color: #e5a75c;
+}
+
+.item .textoResenia{
+    color: white;
+
+    width: 50%;
+
+    margin: auto;
+}
+
+@media (min-width:992px){
+    #contenedorResenias{
+        width: 75%;
+
+        margin: 20px auto;
+    }
+    
+}
+
+/* Fin Sección Reseñas */
+
+/* Footer */
+
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #262626;
+
+    padding-top: 10px;
+
+    border-top: 2px solid grey;
+}
+
+.datosPersonales ul{
+    padding: 0;
+    margin: 0;
+}
+
+.datosPersonales li{
+    list-style: none;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes i{
+    font-size: 30px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #e5a75c;
+}
+
+@media (min-width:992px){
+    .redes{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 150px;
+    }
+}
+/* Fin Footer */
+
+/* FIN INDEX.HTML */
+
+/* ---------------------------- */
+
+/* PRODUCTOS.HTML */
+
+/* Estilos Generales */
+.productos h2{
+    text-align: center;
+
+    line-height: 0;
+
+    background-color: #262626;
+
+    margin: 0;
+    padding: 30px 0;
+}
+
+.producto{
+    margin: 15px 0px;
+}
+
+.cardProducto p{
+    display: none;
+}
+
+.cardProducto h5{
+    padding: 5px 0;
+}
+
+.cardProducto a{
+    background-color: #e5a75c;
+    color: white;
+
+    padding: 5px 10px;
+
+    text-decoration: none;
+}
+
+@media (min-width:992px){
+
+    .producto{
+        max-width: 75%;
+        margin: 15px auto;
+    }
+
+    .cardProducto{
+        width: 75%;
+        margin: auto;
+    }
+
+    .cardProducto p{
+        display: block;
+    }
+
+    .productos h2{
+        padding: 50px 0;
+    }
+} 
+/* Fin Estilos Generales */
+
+/* Header */
+.bannerProductos{
+    height: 30vh;
+    background-image: url(../images/banner/bannerProductosMobile.jpg);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+
+    line-height: 30vh;
+}
+
+@media (min-width:992px){
+
+    .bannerProductos{
+        background-image: url(../images/banner/bannerProductosDesktop.jpg);
+        height: 50vh;
+    }
+
+    h1{
+        font-size: 80px;
+
+        line-height: 50vh;
+    }
+}
+
+/* Fin Header */
+
+/* FIN PRODUCTOS.HTML */
+
+/* ---------------- */
+
+/* ENCONTRANOS.HTML */
+
+/* Header */
+
+.bannerEncontranos{
+    height: 30vh;
+    background-image: url(../images/banner/bannerEncontranosMobile.jpg);
+}
+
+@media (min-width:992px){
+
+    .bannerEncontranos{
+        background-image: url(../images/banner/bannerEncontranosDesktop.jpg );
+        height: 50vh;
+    }
+
+    h1{
+        font-size: 80px;
+
+        line-height: 50vh;
+    }
+}
+
+/* Fin Header */
+
+/* Sección Sucursales */
+
+#sucursales{
+    background-color: #262626;
+}
+
+.sucursal{
+    margin: 25px 0;
+}
+
+.sucursal div{
+    text-align: center;
+    
+    min-height: max-content;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sucursal ul{
+    padding: 0 ;
+}
+
+.sucursal li{
+    list-style: none;
+
+    color: white;
+}
+
+.sucursal a{
+    color: white;
+
+    background-color: #e5a75c;
+
+    text-decoration: none;
+
+    width: max-content;
+    
+
+    padding: 2px 5px;
+}
+
+/* Fin Sección Sucursales */
+
+/* Sección Formulario */
+
+#formularioContacto h2{
+    text-align: center;
+    margin: 0;
+    
+    padding: 5px 0;
+}
+
+#formularioContacto{
+    background-color: #262626;
+    padding-bottom: 20px;
+}
+
+#formularioContacto label{
+    color: #e5a75c;
+}
+
+#formularioContacto button{
+   background-color: #e5a75c;
+
+   border: none;
+
+   width: 100%;
+}
+
+
+/* Fin Sección Formulario */
+
+/* FIN ENCONTRANOS.HTML */
